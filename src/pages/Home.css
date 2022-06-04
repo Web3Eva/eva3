@@ -1,0 +1,92 @@
+.pageIdentify{
+    max-width: 100%;
+    padding:20px;
+    background-color: #272626ed;
+    position: sticky;
+    top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 5;
+}
+.emojii{
+    width: 19px;
+    margin-right: 350px;
+}
+.profileEva {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(63, 63, 63) ;
+    padding: 20px;
+}
+.evaBox {
+    width:89%;
+}
+.profilePic {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+    height: 50px;
+}
+@media all and (max-width:794px){
+    .profilePic {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media all and (max-width:603px){
+    .profilePic {
+        width: 40px;
+        height: 40px;
+    }
+}
+@media all and (max-width:410px){
+    .profilePic {
+        width: calc(50px - 1.8552875695732838vh);
+        height: calc(50px - 1.8552875695732838vh);
+    }
+}
+
+.imgOrEva {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+}
+.eva {
+    background-color: #1DA1F2;
+    padding: 0.6510416666666666vw 1.3020833333333333vw;
+    border-radius: 1000px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+@media all and (max-width:600px) {
+   .eva{
+    padding: 1.5510416666666666vw 2.0020833333333333vw;
+   } 
+}
+.eva:hover {
+    cursor: pointer;
+}
+.evaOptions {
+    display: flex;
+    margin-right: 20px;
+    gap: 10px;
+}
+.imgDiv{
+    border-radius: 50%;
+    padding-left: 10px; 
+}
+.imgDiv:hover{
+    cursor:pointer;
+    background-color: #282828;
+}
+.evaImg {
+    width: 98%;
+    border-radius: 10px;
+}

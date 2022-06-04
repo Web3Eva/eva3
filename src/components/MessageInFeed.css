@@ -1,0 +1,113 @@
+.feedEva {
+    max-width: 100%;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+}
+.feedEva:hover {
+    background-color: #272626ed;
+}
+.yellow path{
+    fill: yellow;
+}
+.container {
+    position: relative;
+    
+  }
+  
+  
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    box-shadow: 2px 2px 4px black;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+    
+  }
+  .follow{
+      background-color: transparent;
+      color: white;
+      border: none;
+
+  }
+  .follow:hover{
+   cursor: pointer;
+
+}
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 12px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.white path{
+    fill: whitesmoke;
+}
+.completeEva {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap:10px;
+    width:89%;
+    gap:10px;
+}
+.interactions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    gap: 150px;
+}
+.interactionNums {
+    
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 1000px;
+}
+.interactionNums:hover {
+    cursor:pointer;
+    background-color: #1da0f20b;
+}
+.who {
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    align-items: center;
+}
+.accWhen {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+.evaContent{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap:10px;
+}
+.evaImg {
+    width: 98%;
+    border-radius: 10px;
+}
